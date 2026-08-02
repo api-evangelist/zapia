@@ -1,8 +1,26 @@
 aid: zapia
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/zapia.png
 name: Zapia
-description: 'Zapia is a company surfaced as a portfolio company of prosus-ventures and added to the API
-  Evangelist network as a stub for enrichment. Sector: ai. This profile is a lead awaiting the enrichment
-  pipeline.'
+description: 'Zapia is a personal AI assistant built for Latin America by BrainLogic AI (a Uruguay/Silicon
+  Valley startup), delivered inside WhatsApp and as native Android and iOS apps plus a Flutter web app at
+  app.zapia.com. It engages consumers in hyper-localized, natural-language conversations to compare prices,
+  reply to and transcribe WhatsApp messages and voice notes, organize calendars (with Google Calendar sync),
+  make reservations, and discover nearby businesses using BrainLogic''s database of millions of Latin
+  American business WhatsApp numbers. Zapia runs on Claude via Google Cloud Vertex AI and has surpassed
+  5.5 million users across the region, backed by seed funding led by Prosus Ventures. It is a consumer
+  (B2C) product: as of this pass it publishes no public developer API, OpenAPI specification, SDKs, or
+  developer portal — this profile captures its public identity and consumer-facing surfaces.'
 url: https://raw.githubusercontent.com/api-evangelist/zapia/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +30,17 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
 - Ai
+- Artificial Intelligence
+- Assistant
+- Conversational AI
+- WhatsApp
+- Consumer
+- Latin America
+- Messaging
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +50,18 @@ maintainers:
 common:
 - type: Website
   url: https://zapia.com
+- type: Blog
+  url: https://zapia.com/blog?lang=en
+- type: TermsOfService
+  url: https://zapia.com/terms?lang=en
+- type: PrivacyPolicy
+  url: https://zapia.com/privacy?lang=en
+- type: SignUp
+  url: https://app.zapia.com
+- type: Company
+  url: https://brainlogic.ai
+x-enrichment:
+  date: '2026-07-21'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
