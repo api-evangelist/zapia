@@ -64,6 +64,73 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Zapia is a company surfaced as a portfolio company of prosus-ventures and added to the API Evangelist network as a stub for enrichment. Sector: ai. This profile is a lead awaiting the enrichment pipeline.
+Zapia is a personal AI assistant built for Latin America by BrainLogic AI (a Uruguay/Silicon Valley startup), delivered inside WhatsApp and as native Android and iOS apps plus a Flutter web app at app.zapia.com. It engages consumers in hyper-localized, natural-language conversations to compare prices, reply to and transcribe WhatsApp messages and voice notes, organize calendars (with Google Calendar sync), make reservations, and discover nearby businesses using BrainLogic's database of millions of Latin American business WhatsApp numbers. Zapia runs on Claude via Google Cloud Vertex AI and has surpassed 5.5 million users across the region, backed by seed funding led by Prosus Ventures. It is a consumer (B2C) product: as of this pass it publishes no public developer API, OpenAPI specification, SDKs, or developer portal — this profile captures its public identity and consumer-facing surfaces.
 
-Backed by: prosus-ventures — https://zapia.com
+**Areas:** Company · Artificial Intelligence · Assistant · Conversational AI · WhatsApp · Consumer · Latin America · Messaging
+
+## Zapia on APIs.io
+
+Everything profiled for Zapia is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/zapia/](https://apis.io/providers/zapia/)** — or go straight to one of the APIs or properties below.
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://zapia.com)
+- [Sign up](https://app.zapia.com)
+- [Blog](https://zapia.com/blog?lang=en)
+- [Terms of service](https://zapia.com/terms?lang=en)
+- [Privacy policy](https://zapia.com/privacy?lang=en)
+
+## API Evangelist rating
+
+**Kin Score 7.9** — minimal · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 48.2 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 2.4 |
+| Access clarity | 21.1 |
+
+**Agent readiness 0.0** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 7.3** — AI & Biometrics
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/zapia/](https://apis.io/providers/zapia/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Zapia: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/zapia/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
